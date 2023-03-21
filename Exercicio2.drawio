@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T22:25:34.518Z" agent="5.0 (Windows)" version="21.0.10" etag="Xb2VvN4xk6UpyuXkqfCI" type="github"><diagram name="Página-1" id="_KPFBT8-mEbaDxsC7dNX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-21T23:34:49.618Z" agent="5.0 (Windows)" etag="GwQORkHTdZ_ruqIO1aPh" version="21.0.10" type="github">
+  <diagram name="Página-1" id="_KPFBT8-mEbaDxsC7dNX">
+    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-2" value="Funcionário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="260" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-5" value="&lt;div&gt;Caixa eletrônico &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="60" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-7" value="&lt;div&gt;Depositar dinheiro&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-8" value="&lt;div&gt;Abrir/Encerrar &lt;br&gt;&lt;/div&gt;&lt;div&gt;Contas&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v4VnuIy9dbqW5Z2jCwXM-1" target="v4VnuIy9dbqW5Z2jCwXM-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v4VnuIy9dbqW5Z2jCwXM-1" target="v4VnuIy9dbqW5Z2jCwXM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="300" as="sourcePoint" />
+            <mxPoint x="220" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-17" value="Sacar dinheiro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-18" value="Extrato" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="v4VnuIy9dbqW5Z2jCwXM-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="120" as="sourcePoint" />
+            <mxPoint x="210" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4VnuIy9dbqW5Z2jCwXM-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="v4VnuIy9dbqW5Z2jCwXM-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="120" as="sourcePoint" />
+            <mxPoint x="220" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
